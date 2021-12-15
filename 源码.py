@@ -77,7 +77,7 @@ target_cols=['love', 'joy', 'fright', 'anger', 'fear', 'sorrow']
 # PRE_TRAINED_MODEL_NAME="bert-base-chinese"
 # PRE_TRAINED_MODEL_NAME='macbert-base-chinese'
 
-# 读者可以在这里切换语言模型
+# 切换语言模型
 PRE_TRAINED_MODEL_NAME='ernie-1.0'
 tokenizer = ErnieTokenizer.from_pretrained('ernie-1.0')
 base_model = ErnieModel.from_pretrained('ernie-1.0')
